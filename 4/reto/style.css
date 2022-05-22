@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-auto-rows: 200px;
+    gap: 15px;
+    justify-content: center;
+}
+
+.item{
+    font-size: 4rem;
+    background-color:aquamarine;
+    align-self: end;
+    justify-self: end;
+}
