@@ -14,11 +14,13 @@ html{
     grid-auto-rows: 200px;
     gap: 15px;
     justify-content: center;
+    align-content: center;
+    height: 100vh;
+    justify-items: end;
+    align-items: end;
 }
 
 .item{
     font-size: 4rem;
     background-color:aquamarine;
-    align-self: end;
-    justify-self: end;
 }
