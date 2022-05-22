@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.container{
+    border: 5px solid #e1bee7;
+    background-color: #fff1ff;
+    display: grid;
+    /*
+    grid-template-columns: 100px 200px 300px; /* TAMAÑO PARA LAS COLUMNAS*/
+    grid-template-rows: 100px 200px;
+    /*
+    grid-template-rows: 150px 250px; /* TAMAÑO PARA LAS FILAS*/
+    /*grid-auto-rows: 150px; /*150px de alto para todas las filas*/
+    grid-auto-columns: 100px;
+    grid-auto-flow: column; /* COMO SE LLENA LA GRILLA, CUANDO LOS ELEMENTOS NO ENTRAN CREA COLUMNAS NUEVAS*/
+    /*row-gap: 15px; /* tamaño de la brecha entre filas */
+    /*column-gap: 30px; /* tamaño de la brecha entre columnas */
+    gap: 40px; /* tamaño de la brecha entre columnas y filas */
+}
+
+.item{
+    border: 5px solid #00bcd4;
+    font-size: 4.0rem;
+}
